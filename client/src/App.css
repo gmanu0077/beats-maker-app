@@ -1,0 +1,40 @@
+*body{
+  
+  background-size: cover;
+  
+  background-image: url('bb7.jpg');
+
+ background-repeat: repeat;
+}
+
+
+.login{
+  margin-top:18%;
+  height: 500px;
+  width: 390px;
+  background-color:rgba(0,0,0, 0.6);
+}
+.main{
+    height: 100%;
+    justify-content: center;
+    background-color:rgba(0,0,0, 0.2);
+}
+.loginn{
+  margin-top:18%;
+  height: 450px;
+  width: 390px;
+  background-color:rgba(0,0,0, 0.6);
+}
+h1{
+  padding:30px;         
+}
+
+button{
+  margin-top: 70px;
+}
+h3{
+  font-family: fantasy;
+}
+h2{
+  font-family:cursive;
+}
