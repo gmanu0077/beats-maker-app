@@ -4,12 +4,9 @@
   "description": "",
   "main": "beats.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
     "test": "react-scripts test",
-    "client": "cd client && npm start",
     "eject": "react-scripts eject"
   },
   "author": "",
