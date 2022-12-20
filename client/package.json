@@ -1,4 +1,4 @@
-{ 
+{
   "name": "beats",
   "version": "0.1.0",
   "private": true,
@@ -27,13 +27,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "react-scripts build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build",
-    "test": "react-scripts test",
-    "client":"cd client && npm start",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
   },
   "eslintConfig": {
     "extends": [
