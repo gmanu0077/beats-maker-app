@@ -63,8 +63,7 @@ router.route('/add').post(async (req, res) => {
       status: true
 
     },
-    process.env.JWT_SEC
-
+    "ALLOY1234"
   );
 
   res
@@ -107,7 +106,7 @@ router.route("/login").post(async (req, res) => {
         name: existingUser.username,
         status: true
       },
-      process.env.JWT_SEC
+      'ALLOY1234'
     );
 
 
@@ -147,7 +146,7 @@ router.get("/loggedIn", (req, res) => {
 
 
 
-    const verify = jwt.verify(token, process.env.JWT_SEC);
+    const verify = jwt.verify(token, 'ALLOY1234');
 
     if (verify) {
 
